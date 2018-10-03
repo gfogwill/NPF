@@ -9,3 +9,4 @@ DMPSdata.load_data_with_labels(nukfile=nuk_file, datafile=data2017)
 DMPSdata.to_htk_format(outdir=odir)
 odir = 'test.lab'
 DMPSdata.gen_htk_labels(outdir=odir)
+print('dsf')
